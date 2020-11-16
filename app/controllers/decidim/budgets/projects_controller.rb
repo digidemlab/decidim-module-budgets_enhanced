@@ -13,7 +13,7 @@ module Decidim
       private
 
       def projects
-        @projects ||= search.results.order_randomly(random_seed).page(params[:page]).per(current_component.settings.projects_per_page)
+        @projects ||= search.results.page(params[:page]).per(current_component.settings.projects_per_page)
       end
 
       def project
