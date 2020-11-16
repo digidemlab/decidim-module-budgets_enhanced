@@ -71,6 +71,8 @@ sv:
             other: projekt
           view: Visa
           vote: Väjare
+        orders:
+           alphabetic: A till Ö
         project:
           add: Lägg till
           count:
